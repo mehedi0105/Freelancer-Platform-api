@@ -70,7 +70,7 @@ MIDDLEWARE = [
 
 CORS_ORIGIN_ALLOW_ALL = True
 
-LOGIN_URL = "http://127.0.0.1:5500/Frontend/login.html"
+LOGIN_URL = "https://mehedi0105.github.io/frontend-code/login.html"
 
 REST_FRAMEWORK = {
     
