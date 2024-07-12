@@ -53,6 +53,7 @@ INSTALLED_APPS = [
 ]
 
 AUTH_USER_MODEL = "accounts.CustomUser" 
+CSRF_TRUSTED_ORIGINS = ['https://freelancer-platform-api.onrender.com']
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
